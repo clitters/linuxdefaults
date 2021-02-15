@@ -8,6 +8,7 @@ fi
 echo Starting Install Script...
 
 if [ -f "pacman.lst" ]; then
+
     echo "  found pacman.lst - continuing with pacman packages"
     # Test wether pacman is there
     if ! command -v pacman &> /dev/null
